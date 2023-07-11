@@ -11,7 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",
-    "https://notes-app-frontend-fast-api-react.vercel.app/"
+    "https://notes-app-frontend-fast-api-react.vercel.app"
 ]
 
 app.add_middleware(
